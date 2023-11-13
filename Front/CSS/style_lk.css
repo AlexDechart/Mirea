@@ -110,3 +110,21 @@ h1 {
     width: 100%;
     height: auto;
 }
+
+.button_reg {
+    background-color: #80131A;
+    color: #fff;
+    padding: 20px 30px;
+    font-size: 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10%;
+    margin-right: 50px;
+}
+
+
+
+
+

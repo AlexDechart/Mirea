@@ -27,22 +27,26 @@
     </head>
 <body>
     <div class="container">
-        <h1>Вход в личный кабинет</h1>
-        <form id="login-form">
-            <div class="input-group">
-                <label for="email">Электронная почта</label>
-                <input type="email" id="email" placeholder="Введите электронную почту" required>
-            </div>
-            <div class="input-group">
-                <label for="password">Пароль:</label>
-                <input type="password" id="password" placeholder="Введите пароль" required>
-            </div>
-            <button type="submit" class="btn">Войти</button>
+        <h1>Регистрация</h1>
+        <form id="register-form">
+          <div class="input-group">
+            <label for="email">Электронная почта</label>
+            <input type="email" id="email" placeholder="Введите электронную почту" required>
+          </div>
+          <div class="input-group">
+            <label for="create-password">Создать пароль:</label>
+            <input type="password" id="create-password" placeholder="Введите пароль" required>
+          </div>
+          <div class="input-group">
+            <label for="confirm-password">Повторить пароль:</label>
+            <input type="password" id="confirm-password" placeholder="Повторите пароль" required>
+          </div>
+          <button type="submit" class="btn">Зарегистрироваться</button>
         </form>
-        <a href = "reg.html">
-            <button type="submit" class="btn">Зарегистрироваться</button>
+        <a href = "lk.html">
+            <button type="submit" class="btn">Войти</button>
         </a>
-    </div>
-    <script src="script.js"></script>
+      </div>
+      <script src="script.js"></script>
 </body>
 </html>
