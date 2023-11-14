@@ -37,7 +37,7 @@ h1 {
 
 .input-group {
     margin-bottom: 20px;
-}
+}   
 
 .input-group label {
     display: block;
@@ -46,7 +46,7 @@ h1 {
 }
 
 .input-group input {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     border-radius: 3px;
     border: 1px solid #ccc;
@@ -122,6 +122,10 @@ h1 {
     cursor: pointer;
     border-radius: 10%;
     margin-right: 50px;
+}
+
+.href {
+    text-decoration: none;
 }
 
 
