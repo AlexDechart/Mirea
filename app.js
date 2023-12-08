@@ -10,6 +10,10 @@ app.use("/main",function (_, response) {
     response.redirect("/")
   });
 
+app.use((_, response) => {
+    response.status(404).send('Ошибка 404 - Страница не найдена');
+  });
+
 app.get("/", function(request, response){
     response.sendFile(__dirname + "/Front/index.html");
 });
