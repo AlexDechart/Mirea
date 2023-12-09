@@ -1,0 +1,287 @@
+.background { 
+    width: 1920px;
+    height: 567px;
+    left: 0;
+    object-fit: cover;
+}
+
+.background2 {
+    width: 1920px;
+    height: 509px;
+    left: 0;
+    object-fit: cover; 
+}
+
+.background3 {
+    width: 1920px;
+    height: 449px;
+    left: 0;
+    object-fit: cover;
+}
+
+.background4 {
+    width: 1920px;
+    height: 434px;
+    left: 0;
+    object-fit: cover;
+}
+
+.background5 {
+    width: 1920px;
+    height: 476px;
+    left: 0;
+    object-fit: cover;
+}
+
+.label {
+    width: 510px;
+    height: 864px;
+}
+
+.label .WHO-ARE-WE {
+    position: absolute;
+    top: 240px;
+    left: 22px;
+    font-family: "Anton", Helvetica;
+    font-weight: 600;
+    color: #80131a;
+    font-size: 300px;
+    letter-spacing: 0;
+    line-height: 288.1px;
+}
+
+
+.label_1 {
+    width: 1211px;
+    height: 100px;
+}
+
+.label_1 .PODCAST-BASEMENT {
+    width: 1211px;
+    top: 505px;
+    left: 715px;
+    font-family: "Alfa Slab One", Helvetica;
+    color: transparent;
+    font-size: 70px;
+    letter-spacing: -0.35px;
+    line-height: 80.2px;
+    position: absolute;
+    font-weight: 420;
+    text-align: center;
+}
+
+.label_1 .text-wrapper {
+    color: #ffffff;
+}
+  
+.label_1 .span {
+    color: #80131a;
+}
+  
+.label_1 .text-wrapper-2 {
+    font-family: "Piazzolla", Helvetica;
+    color: #80131a;
+}
+
+.overlap {
+    width: 1920px;
+    height: 449px;
+    top: 1200px;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: absolute;
+    left: 0;
+}
+  
+.overlap .text-wrapper-3 {
+    position: absolute;
+    width: 1090px;
+    top: 20px;
+    left: 453px;
+    font-family: "Anton", Helvetica;
+    font-weight: 600;
+    color: #80131a;
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: 0px;
+    line-height: 100.5px;
+    white-space: nowrap;
+}
+  
+.overlap .team {
+    position: absolute;
+    width: 478px;
+    top: 127px;
+    left: 350px;
+    font-family: "Raleway", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 2.02px;
+    line-height: 77.4px;
+}
+  
+.overlap .team-2 {
+    position: absolute;
+    width: 443px;
+    top: 127px;
+    left: 1172px;
+    font-family: "Raleway", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 2.02px;
+    line-height: 77.4px;
+}
+
+.overlap-2 {
+    width: 1920px;
+    height: 434px;
+    top: 1650px;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: absolute;
+    left: 0;
+}
+  
+.overlap-2 .TECHNOLOGIES {
+    position: absolute;
+    top: 20px;
+    left: 587px;
+    font-family: "Anton", Helvetica;
+    font-weight: 600;
+    color: #80131a;
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: 0px;
+    line-height: 100.5px;
+    white-space: nowrap;
+}
+  
+.overlap-2 .JAVASCRIPT-CSS {
+    position: absolute;
+    top: 145px;
+    left: 669px;
+    font-family: "Raleway", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 2.25px;
+    line-height: 86px;
+}
+
+.overlap-3 {
+    width: 1920px;
+    height: 476px;
+    top: 2213px;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: absolute;
+    left: 0;
+}
+  
+.overlap-3 .text-wrapper-4 {
+    position: absolute;
+    top: 20px;
+    left: 665px;
+    font-family: "Anton", Helvetica;
+    font-weight: 400;
+    color: #80131a;
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: 15.5px;
+    line-height: 100.5px;
+    white-space: nowrap;
+}
+  
+.overlap-3 .vector-2 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 238px;
+    left: 930px;
+}
+  
+.overlap-3 .vector-3 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 238px;
+    left: 303px;
+}
+  
+.overlap-3 .vector-4 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 238px;
+    left: 1557px;
+}
+
+.view {
+    position: absolute;
+    width: 1881px;
+    height: 58px;
+    top: 2710px;
+    left: 20px;
+}
+
+.text-wrapper-5 {
+    position: absolute;
+    width: 1879px;
+    top: 0;
+    left: 0;
+    font-family: "Ubuntu Mono", Helvetica;
+    font-weight: 700;
+    color: #80131a;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 16px;
+    line-height: normal;
+}
+
+.view-2 {
+    position: absolute;
+    width: 656px;
+    height: 72px;
+    top: 2846px;
+    left: 125px;
+}
+  
+.component-1 {
+    width: 192px;
+    top: 20px;
+    left: 462px;
+    position: absolute;
+    height: 32px;
+}
+  
+.text-wrapper-6 {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    font-family: "Ubuntu Mono", Helvetica;
+    font-weight: 700;
+    color: #4a4a52;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+  
+.text-wrapper-7 {
+    top: 0;
+    left: 0;
+    font-family: "Anton", Helvetica;
+    color: #80131a;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    font-weight: 400;
+    text-align: center;
+}
