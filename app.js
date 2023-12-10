@@ -11,7 +11,7 @@ app.use("/main",function (_, response) {
   });
 
 app.use((_, response) => {
-    response.status(404).send('Ошибка 404 - Страница не найдена');
+    response.status(404).sendFile(__dirname + "/Front/error404.html");
   });
 
 app.get("/", function(request, response){
