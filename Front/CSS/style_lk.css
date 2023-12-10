@@ -23,13 +23,15 @@ body {
 }
 
 .container {
-    max-width: 400px;
-    margin: 100px auto;
     background-color: #fff;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 
 h1 {
     text-align: center;
@@ -109,7 +111,13 @@ h1 {
 .background {
     width: 100%;
     height: auto;
+    background-image: url('img/image back 1.svg'), url('img/image back 2.svg'), url('img/image back 3.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
+
 
 .button_reg {
     background-color: #80131A;
