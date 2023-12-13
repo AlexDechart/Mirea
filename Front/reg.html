@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="CSS/normalize.css">
         <link rel="stylesheet" href="CSS/style_lk.css">
         <div class="header">
-            <a href="main" class="header-logo">
+            <a href="index.html" class="header-logo">
                 <img src="img/LOGO.svg" class="logo" alt="Logo">
               </a>
               <ul class="header-menu"> 
@@ -23,8 +23,6 @@
         </div>
         <div class = "background">
           <img src="img/image back 1.svg">
-          <img src="img/image back 2.svg">
-          <img src="img/image back 3.svg">
       </div>
     </head>
 <body>
@@ -32,15 +30,15 @@
         <h1>Регистрация</h1>
         <form id="register-form">
           <div class="input-group">
-            <label for="email">Электронная почта</label>
+            <label for="email" class="form-label">Электронная почта</label>
             <input type="email" id="email" placeholder="Введите электронную почту" required>
           </div>
           <div class="input-group">
-            <label for="create-password">Создать пароль:</label>
+            <label for="create-password" class="form-label">Создать пароль:</label>
             <input type="password" id="create-password" placeholder="Введите пароль" required>
           </div>
           <div class="input-group">
-            <label for="confirm-password">Повторить пароль:</label>
+            <label for="confirm-password" class="form-label">Повторить пароль:</label>
             <input type="password" id="confirm-password" placeholder="Повторите пароль" required>
           </div>
           <button type="submit" class="btn">Зарегистрироваться</button>

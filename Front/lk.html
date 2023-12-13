@@ -1,30 +1,27 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>My Website</title>
-        <title>Вход в личный кабинет</title>
-        <link rel="stylesheet" href="CSS/normalize.css">
-        <link rel="stylesheet" href="CSS/style_lk.css">
-        <div class="header">
-            <a href="#" class="header-logo">
-                <img src="img/LOGO.svg" class="logo" alt="Logo">
-              </a>
-              <ul class="header-menu"> 
-                <div class="button">Новости</div>
-                <div class="button">База подкастов</div>
-                <a href = "aboutus.html">
-                    <div class="button">О проекте</div> 
-                </a>
-                <a href = "lk.html">
-                    <div class="button_lk">Вход</div> 
-                </a>
-            </ul>
-        </div>
+<head>
+    <meta charset="UTF-8">
+    <title>Вход в личный кабинет</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style_lk.css">
+    <div class="header">
+        <a href="index.html" class="header-logo">
+            <img src="img/LOGO.svg" class="logo" alt="Logo">
+        </a>
+        <ul class="header-menu"> 
+            <div class="button">Новости</div>
+            <div class="button">База подкастов</div>
+            <a href = "aboutus.html">
+                <div class="button">О проекте</div> 
+            </a>
+            <a href = "lk.html">
+                <div class="button_lk">Вход</div> 
+            </a>
+        </ul>
+    </div>
     <div class = "background">
         <img src="img/image back 1.svg">
-        <img src="img/image back 2.svg">
-        <img src="img/image back 3.svg">
     </div>
 </head>
 <body>
@@ -32,18 +29,16 @@
         <h1>Вход в личный кабинет</h1>
         <form id="login-form">
             <div class="input-group">
-                <label for="email">Электронная почта</label>
+                <label for="email" class="form-label">Электронная почта</label>
                 <input type="email" id="email" placeholder="Введите электронную почту" required>
             </div>
             <div class="input-group">
-                <label for="password">Пароль:</label>
+                <label for="password" class="form-label">Пароль:</label>
                 <input type="password" id="password" placeholder="Введите пароль" required>
             </div>
             <button type="submit" class="btn">Войти</button>
         </form>
-        <a href = "reg.html">
-            <button type="submit" class="btn">Зарегистрироваться</button>
-        </a>
+        <button onclick="window.location.href='reg.html';" type="submit" class="btn">Зарегистрироваться</button>
     </div>
     <script src="script.js"></script>
 </body>
