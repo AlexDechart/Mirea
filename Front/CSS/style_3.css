@@ -1,0 +1,359 @@
+.screen {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.screen .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 3000px;
+  position: relative;
+}
+
+.screen .overlap-group {
+  position: absolute;
+  width: 1440px;
+  height: 3000px;
+  top: 0;
+  left: 0;
+}
+
+.screen .rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 254px;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgb(5, 5, 5) 0%, rgb(18, 18, 18) 100%);
+}
+
+.screen .view {
+  position: absolute;
+  width: 1881px;
+  height: 58px;
+  top: 124px;
+  left: 25px;
+}
+
+.screen .text-wrapper {
+  position: absolute;
+  width: 1879px;
+  top: 0;
+  left: 0;
+  font-family: "Ubuntu Mono", Helvetica;
+  font-weight: 700;
+  color: #80131a;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 16px;
+  line-height: normal;
+}
+
+.screen .frame-wrapper {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  top: 38px;
+  left: 1230px;
+}
+
+.screen .frame {
+  position: relative;
+  height: 50px;
+  background-color: #80131a;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.screen .text-wrapper-2 {
+  position: absolute;
+  top: 10px;
+  left: 26px;
+  font-family: "Ubuntu Mono", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .div-wrapper {
+  position: absolute;
+  width: 350px;
+  height: 90px;
+  top: 26px;
+  left: 34px;
+}
+
+.screen .tight-bounds-wrapper {
+  height: 90px;
+  overflow: hidden;
+}
+
+.screen .div-2 {
+  width: 349px;
+  height: 90px;
+}
+
+.screen .group-wrapper {
+  height: 90px;
+}
+
+.screen .frame-2 {
+  position: relative;
+  height: 90px;
+  overflow: hidden;
+}
+
+.screen .group {
+  position: absolute;
+  width: 262px;
+  height: 87px;
+  top: 2px;
+  left: 86px;
+}
+
+.screen .div-wrapper-2 {
+  height: 87px;
+}
+
+.screen .div-wrapper-3 {
+  width: 262px;
+  height: 87px;
+}
+
+.screen .img-wrapper {
+  position: relative;
+  height: 87px;
+}
+
+.screen .text {
+  position: absolute;
+  width: 262px;
+  height: 84px;
+  top: 2px;
+  left: 0;
+}
+
+.screen .img {
+  position: absolute;
+  width: 78px;
+  height: 90px;
+  top: 0;
+  left: 0;
+}
+
+.screen .view-2 {
+  position: absolute;
+  width: 680px;
+  height: 32px;
+  top: 47px;
+  left: 488px;
+}
+
+.screen .component {
+  position: absolute;
+  width: 224px;
+  height: 32px;
+  top: 0;
+  left: 212px;
+}
+
+.screen .text-wrapper-3 {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Ubuntu Mono", Helvetica;
+  font-weight: 400;
+  color: #4a4a52;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .component-2 {
+  width: 112px;
+  left: 0;
+  position: absolute;
+  height: 32px;
+  top: 0;
+}
+
+.screen .component-3 {
+  width: 144px;
+  left: 536px;
+  position: absolute;
+  height: 32px;
+  top: 0;
+}
+
+.screen .image {
+  position: absolute;
+  width: 1440px;
+  height: 677px;
+  top: 1608px;
+  left: 0;
+  object-fit: cover;
+}
+
+.screen .image-2 {
+  top: 931px;
+  position: absolute;
+  width: 1440px;
+  height: 677px;
+  left: 0;
+  object-fit: cover;
+}
+
+.screen .image-3 {
+  top: 2285px;
+  position: absolute;
+  width: 1440px;
+  height: 677px;
+  left: 0;
+  object-fit: cover;
+}
+
+.screen .image-4 {
+  top: 254px;
+  position: absolute;
+  width: 1440px;
+  height: 677px;
+  left: 0;
+  object-fit: cover;
+}
+
+.screen .image-5 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 153px;
+  left: 520px;
+}
+
+.screen .rectangle-2 {
+  position: absolute;
+  width: 1440px;
+  height: 2000px;
+  top: 931px;
+  left: 0;
+  background: linear-gradient(180deg, rgb(12, 12, 12) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.screen .rectangle-3 {
+  position: absolute;
+  width: 1256px;
+  height: 684px;
+  top: 592px;
+  left: 91px;
+  background-color: #191919;
+  border-radius: 23px;
+}
+
+.screen .p {
+  position: absolute;
+  top: 647px;
+  left: 159px;
+  font-family: "Ubuntu Mono", Helvetica;
+  font-weight: 700;
+  color: #80131a;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: 50px;
+}
+
+.screen .rectangle-4 {
+  position: absolute;
+  width: 393px;
+  height: 617px;
+  top: 1468px;
+  left: 91px;
+  background-color: #191919;
+  border-radius: 23px;
+}
+
+.screen .rectangle-5 {
+  position: absolute;
+  width: 738px;
+  height: 1268px;
+  top: 1468px;
+  left: 609px;
+  background-color: #191919;
+  border-radius: 23px;
+}
+
+.screen .text-wrapper-4 {
+  position: absolute;
+  top: 1521px;
+  left: 184px;
+  font-family: "Ubuntu Mono", Helvetica;
+  font-weight: 700;
+  color: #80131a;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: 50px;
+  white-space: nowrap;
+}
+
+.screen .social-icons {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 1603px;
+  left: 134px;
+}
+
+.screen .social-icons-2 {
+  top: 1608px;
+  left: 334px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.screen .social-icons-3 {
+  top: 1741px;
+  left: 134px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.screen .social-icons-4 {
+  top: 1741px;
+  left: 334px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.screen .text-wrapper-5 {
+  position: absolute;
+  top: 1521px;
+  left: 872px;
+  font-family: "Ubuntu Mono", Helvetica;
+  font-weight: 700;
+  color: #80131a;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen .rectangle-6 {
+  position: absolute;
+  width: 783px;
+  height: 764px;
+  top: 1703px;
+  left: 2458px;
+  background-color: #4a4a52;
+  border-radius: 30px;
+}
