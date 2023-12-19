@@ -1,3 +1,12 @@
+.body {
+    height: 2665px;
+    width: 1920px;
+}
+
+.header {
+    width: 1920px;
+}
+
 .background { 
     width: 1920px;
     height: 567px;
@@ -35,7 +44,7 @@
 
 .label {
     width: 510px;
-    height: 864px;
+    height: 200px;
 }
 
 .label .WHO-ARE-WE {
@@ -56,7 +65,7 @@
     height: 100px;
 }
 
-.label_1 .PODCAST-BASEMENT {
+.PODCAST-BASEMENT {
     width: 1211px;
     top: 505px;
     left: 715px;
@@ -70,15 +79,15 @@
     text-align: center;
 }
 
-.label_1 .text-wrapper {
+.text-wrapper {
     color: #ffffff;
 }
   
-.label_1 .span {
+.span {
     color: #80131a;
 }
   
-.label_1 .text-wrapper-2 {
+.text-wrapper-2 {
     font-family: "Piazzolla", Helvetica;
     color: #80131a;
 }
@@ -197,42 +206,20 @@
     white-space: nowrap;
 }
 
-.view {
-    position: absolute;
-    width: 1881px;
-    height: 58px;
-    top: 2710px;
-    left: 20px;
-}
-
-.text-wrapper-5 {
-    position: absolute;
-    width: 1879px;
-    top: 0;
-    left: 0;
-    font-family: "Ubuntu Mono", Helvetica;
-    font-weight: 700;
-    color: #80131a;
-    font-size: 40px;
-    text-align: center;
-    letter-spacing: 16px;
-    line-height: normal;
-}
-
 .view-2 {
     position: absolute;
     width: 656px;
     height: 72px;
-    top: 2846px;
+    top: 2600px;
     left: 125px;
 }
   
 .component-1 {
     width: 192px;
-    top: 20px;
+    top: 15px;
     left: 462px;
     position: absolute;
-    height: 32px;
+    height: 40px;
 }
   
 .text-wrapper-6 {
@@ -249,7 +236,7 @@
     white-space: nowrap;
 }
   
-.text-wrapper-7 {
+.view-2 .text-wrapper-7 {
     top: 0;
     left: 0;
     font-family: "Anton", Helvetica;
@@ -337,4 +324,12 @@
 }
 .wh:hover {
     cursor: pointer;
+}   
+
+.footer {
+    position: absolute;
+    width: 1920px;
+    height: 2px;
+    top: 2550px;
+    left: 0px;
 }
