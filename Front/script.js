@@ -29,3 +29,25 @@ function login() {
   function loginPage() {
     window.location.href = 'lk.html';
   }
+
+  document.getElementById('register-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+  
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('create-password').value;
+    const confirmPassword = document.getElementById('confirm-password').value;
+  
+    if(password !== confirmPassword) {
+      alert('Пароли не совпадают, попробуйте еще раз.');
+      return;
+    }
+  
+    fetch('http://localhost:2890/reg.html', {
+      method: 'POST',
+      body: JSON.stringify({ email: email, password: password }),
+      headers: { 'Content-Type': 'application/json' }
+    })
+    .then(response => response.json())
+    .then(json => alert(json.success ? json.success : json.error))
+    .catch(err => console.error('Error:', err));
+  });
